@@ -27,13 +27,30 @@ a {
     color: #777;
 }
 
+a:hover {
+    font-size: 16.5px;
+    font-weight: bold;
+    transition: 50ms ease-in-out;
+}
+
 .nav {
     height: 60px;
+}
+
+.nav-container {
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    top: 0;
+    margin-right: 30px;
 }
 
 .nav-list {
     list-style-type: none;
     text-align: right;
+    margin-right: 66px;
+    padding-top: 30px;
 }
 
 .nav-list-name {
@@ -50,7 +67,11 @@ a {
     margin-right: 15px;
 }
 
-.header {
+/* .header {
+    
+} */
+
+.hero-image {
     height: 95vh;
     background-image: 
     linear-gradient(
@@ -238,6 +259,11 @@ a {
     background-color: #59a2b3;
     color: #FFF;
     text-align: center;
+    padding: 50px;
+}
+
+.contact-heading {
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 600px) {
