@@ -307,6 +307,10 @@ a {
     z-index: 10;
 }
 
+.professional-skills-image {
+    height: 75px;
+}
+
 .contact {
     background-color: #59a2b3;
     color: #FFF;
