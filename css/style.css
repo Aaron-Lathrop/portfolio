@@ -68,7 +68,7 @@ body {
 
 .heading-primary-main {
     display: block;
-    font-size: 56px;
+    font-size: 42px;
     font-weight: 400;
     letter-spacing: 16px;
 
@@ -220,9 +220,9 @@ body {
 
 .test2-heading-primary-main {
     display: block;
-    font-size: 3.5rem;
+    font-size: 42px;
     font-weight: 400;
-    letter-spacing: 29px;
+    letter-spacing: 6px;
     max-width: 100%;
 
     animation-name: moveInLeft;
@@ -237,7 +237,7 @@ body {
     to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
     url(../img/rock-stacking3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
 }
@@ -254,17 +254,26 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
 }
 
-@media only screen and (max-width: 500px) {
+
+
+@media only screen and (min-width: 600px) {
     .heading-primary-main, .test2-heading-primary-main {
-        letter-spacing: 5px;
-        font-size: 42px;
+        font-size: 56px;
+    }
+
+    .heading-primary-main {
+        letter-spacing: 15px;
+    }
+
+    .test2-heading-primary-main {
+        letter-spacing: 20px;
     }
 
     .test3 {
-        background-position: left;
+        background-position: center;
     }
 
     #test4 {
-        letter-spacing: 10px;
+        letter-spacing: 29px;
     }
 }
