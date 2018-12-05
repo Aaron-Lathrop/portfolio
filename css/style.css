@@ -1,0 +1,253 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: 
+    /* linear-gradient(
+    to bottom right, rgba(0, 255, 0, 0.3), rgba(0, 167, 0, 0.3)),  */
+    linear-gradient(
+    to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
+    url(../img/fluid-wall.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /* polygon(top-left x y, top-right x y, bottom-right x y, bottom-left x y) */
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 35px;
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: 16px;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 11.4px;
+
+    animation: moveInRight 1s ease-out;
+}
+
+.heading-primary-sub-focus {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive, "Latto", sans-serif;
+    letter-spacing: 11.4px;
+    text-transform: lowercase;
+
+    animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0 ,0 , .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0 ,0 , .2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+
+.test1 {
+    height: 95vh;
+    background-image: 
+    linear-gradient(
+    to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
+    url(../img/rock-stacking1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* polygon(top-left x y, top-right x y, bottom-right x y, bottom-left x y) */
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+}
+
+.test2 {
+    height: 95vh;
+    background-image: 
+    linear-gradient(
+    to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
+    url(../img/rock-stacking2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+}
+
+.test2-heading-primary-main {
+    display: block;
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: 29px;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.test3 {
+    height: 95vh;
+    background-image: 
+    linear-gradient(
+    to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
+    url(../img/rock-stacking3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+}
+
+.test4 {
+    height: 95vh;
+    background-image: 
+    linear-gradient(
+    to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
+    url(../img/diamond-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+}
