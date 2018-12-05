@@ -22,6 +22,34 @@ body {
     padding: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+.nav {
+    height: 60px;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-list-name {
+    float: left;
+    font-size: 43px;
+    padding-left: 15px;
+    font-family: 'Indie Flower', cursive, "Latto", sans-serif;
+}
+
+.nav-list-item {
+    color: #777;
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 15px;
+}
+
 .header {
     height: 95vh;
     background-image: 
@@ -189,9 +217,27 @@ body {
     animation-fill-mode: backwards;
 }
 
+.about-me {
+    margin: 100px 0 100px 0;
+}
+
+.about-me-list {
+    margin: 10px 0 10px 45px;
+}
+
+/* .about-me-description-focus {
+    font-family: 'Indie Flower', cursive, "Latto", sans-serif;
+} */
+
 .about-me-photo {
     margin-top: 46px;
     border-radius: 135px;
+}
+
+.contact {
+    background-color: #59a2b3;
+    color: #FFF;
+    text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
