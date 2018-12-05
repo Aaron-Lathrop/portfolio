@@ -27,7 +27,7 @@ a {
     color: #777;
 }
 
-a:hover {
+.nav-list-item:hover:not(.nav-list-name) {
     font-size: 16.5px;
     font-weight: bold;
     transition: 50ms ease-in-out;
@@ -68,7 +68,7 @@ a:hover {
 }
 
 /* .header {
-    
+    position: relative;
 } */
 
 .hero-image {
@@ -239,8 +239,17 @@ a:hover {
 }
 
 .about-me {
+    background-color: rgba(89, 163, 179, 0.03);
+    width: 100%;
+}
+
+.about-me-container {
     margin: 100px 0 100px 0;
 }
+
+/* .about-me-text {
+
+} */
 
 .about-me-list {
     margin: 10px 0 10px 45px;
@@ -250,9 +259,52 @@ a:hover {
     font-family: 'Indie Flower', cursive, "Latto", sans-serif;
 } */
 
+.about-me-photo-container {
+    margin-bottom: 100px;
+}
+
 .about-me-photo {
-    margin-top: 46px;
+    max-width: 250px;
     border-radius: 135px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.latest-work-container {
+    height: 300px;
+    margin: 10px 0 10px 0;
+}
+
+.latest-work-content {
+    overflow: hidden;
+}
+
+.latest-work-image {
+    position: relative;
+    width: 100%;
+}
+
+.latest-work-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 100ms ease-in-out;
+}
+
+.latest-work-image-container:hover .overlay {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    background-image: linear-gradient(to bottom right, rgba(168, 138, 101, 0.3), rgba(133, 1, 0.3));
+    width: 100%;
+    height: 100%;
+    z-index: 10;
 }
 
 .contact {
@@ -276,10 +328,23 @@ a:hover {
         letter-spacing: 29px;
     }
 
+    .about-me-container {
+        margin: 100px 0 100px 0;
+    }
+
+    .about-me-photo-container {
+        margin: 100px 0 100px 0;
+    }
+
     .about-me-photo {
         max-width: 250px;
-        margin-left: 163px;
-        margin-top: 46px;
         border-radius: 135px;
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+    }
+
+    .latest-work-container .col-4 {
+        width: 450px;
     }
 }
