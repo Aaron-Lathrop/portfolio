@@ -222,6 +222,7 @@ body {
     font-size: 56px;
     font-weight: 400;
     letter-spacing: 29px;
+    max-width: 100%;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -250,4 +251,10 @@ body {
     background-position: center;
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .test2-heading-primary-main {
+        letter-spacing: 5px;
+    }
 }
