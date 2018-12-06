@@ -56,15 +56,30 @@ const images = [
 
 const projects = [
     {
-        url: "interview-prep.png",
-        description: "Interview Prep helps users practice common interview questions."
+        url: "https://interview-prep-capstone.herokuapp.com/",
+        github: "https://github.com/Aaron-Lathrop/Node_Capstone",
+        img: "interview-prep.png",
+        description: "Interview Prep helps users practice common interview questions.",
+        skills: [
+            "NodeJS", "Express", "MongoDB", "mLab", "Heroku", "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Mocha", "Chai", "Git", "Github", "VS Code"
+        ]
     },
     {
-        url: "civic-researcher.png",
-        description: "Civic Researcher helps users learn about politicans in their local area."
+        url: "https://aaron-lathrop.github.io/Civic-Researcher-API/",
+        github: "https://github.com/Aaron-Lathrop/Civic-Researcher-API",
+        img: "civic-researcher.png",
+        description: "Civic Researcher helps users learn about politicans in their local area.",
+        skills: [
+                "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Git", "Github", "VS Code"
+        ]
     },
     {
-        url: "spacex-quiz.png",
-        description: "SpaceX Quiz is a 10 question quiz on SpaceX trivia."
+        url: "https://aaron-lathrop.github.io/Quiz-App/",
+        github: "https://github.com/Aaron-Lathrop/Quiz-App",
+        img: "spacex-quiz.png",
+        description: "SpaceX Quiz is a 10 question quiz on SpaceX trivia.",
+        skills: [
+            "HTML5", "CSS3", "Javascript", "jQuery", "Git", "Github", "VS Code"
+        ]
     }
 ];

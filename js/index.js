@@ -17,7 +17,7 @@ function addProjects(projects) {
         output += `
         <div class="latest-work-container col-12">
                 <div class="latest-work-content">
-                    <img class="latest-work-image" src="img/${project.url}" alt="${project.description}">
+                    <img class="latest-work-image" src="img/${project.img}" alt="${project.description}">
                     <p class="latest-work-description">
                         ${project.description}
                     </p>
