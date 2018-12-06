@@ -24,16 +24,20 @@ function addProjects(projects) {
     projects.forEach(project => {
         output += `
         <div class="latest-work-container">
-                <div class="latest-work-content">
-                    <img class="latest-work-image" src="img/${project.img}" alt="${project.description}">
-                    <p class="latest-work-description">
-                        ${project.description}
-                    </p>
-                    <ul class="skill-list">${addProjectSkills(project.skills)}</ul>
+            <div class="latest-work-content">
+                <img class="latest-work-image" src="img/${project.img}" alt="${project.description}">
+                <p class="latest-work-description">
+                    ${project.description}
+                </p>
+                <ul class="skill-list">${addProjectSkills(project.skills)}</ul>
+                <div class="project-btn-container">
+                    <a href=${project.github} class="btn project-btn">Github</a>
+                    <a href=${project.url} class="btn project-btn">Demo</a>
                 </div>
-            </div>  `;
+            </div>
+        </div>  `;
     });
-    document.getElementById("projects").innerHTML = output;
+    document.getElementById("latest-projects").innerHTML = output;
 }
 
 function onPageLoad() {
@@ -41,4 +45,4 @@ function onPageLoad() {
     addProjects(projects);
 }
 
-document.ready(onPageLoad());
+onPageLoad();
