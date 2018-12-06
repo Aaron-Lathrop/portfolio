@@ -242,8 +242,8 @@ section h2 {
 }
 
 .about-me-photo {
-    max-width: 250px;
-    border-radius: 135px;
+    max-width: 315px;
+    border-radius: 35px;
     left: 50%;
     position: relative;
     transform: translateX(-50%);
@@ -340,19 +340,18 @@ section h2 {
 }
 
 .footer-container {
-    margin: 25px;
+    margin: 15px 15px 55px 15px;
+    text-align: center;
 }
 
 .copyright {
-    display: inline;
-    font-size: 22px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .footer-image {
     height: 40px;
-    float: right;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 15px 5px 25px 5px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -374,10 +373,14 @@ section h2 {
     }
 
     .about-me-photo {
-        max-width: 250px;
-        border-radius: 135px;
+        max-width: 315px;
+        border-radius: 35px;
         left: 50%;
         position: relative;
         transform: translateX(-50%);
+    }
+
+    .copyright {
+        font-size: 22px;
     }
 }
