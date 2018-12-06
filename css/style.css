@@ -337,6 +337,23 @@ section h2 {
     text-transform: uppercase;
 }
 
+.footer-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    display: inline;
+    font-size: 22px;
+}
+
+.footer-image {
+    height: 50px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 @media only screen and (min-width: 600px) {
     .heading-primary-main {
         font-size: 56px;
