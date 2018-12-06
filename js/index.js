@@ -23,7 +23,7 @@ function addProjects(projects) {
     let output = `<h2 class="latest-work-heading">Projects</h2>`;
     projects.forEach(project => {
         output += `
-        <div class="latest-work-container col-12">
+        <div class="latest-work-container">
                 <div class="latest-work-content">
                     <img class="latest-work-image" src="img/${project.img}" alt="${project.description}">
                     <p class="latest-work-description">

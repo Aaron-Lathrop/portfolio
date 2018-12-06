@@ -257,14 +257,21 @@ section h2 {
 }
 
 .latest-work-container {
-    margin: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
     overflow: hidden;
 }
 
 .latest-work-container:last-child {
-    margin: 20px 0 40px 0;
+    margin: 20px auto 40px auto;
     overflow: hidden;
 }
+
+.latest-work-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 100ms ease-in-out;
+}
+
 
 .latest-work-content {
     overflow: hidden;
@@ -273,12 +280,6 @@ section h2 {
 .latest-work-image {
     position: relative;
     width: 100%;
-}
-
-.latest-work-container:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 100ms ease-in-out;
 }
 
 .latest-work-description {
@@ -339,6 +340,12 @@ section h2 {
     padding-bottom: 15px;
 }
 
+.contact-text a:hover {
+    font-size: 24.5px;
+    font-weight: bold;
+    transition: 50ms ease-in-out;
+}
+
 .footer-container {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -382,7 +389,17 @@ section h2 {
         transform: translateX(-50%);
     }
 
-    .latest-work-container .col-4 {
+    /* .latest-work-container .col-4 {
         width: 450px;
+    } */
+
+    .latest-work-container {
+        margin: 20px auto 20px auto;
+        overflow: hidden;
+    }
+    
+    .latest-work-container:last-child {
+        margin: 20px auto 40px auto;
+        overflow: hidden;
     }
 }
