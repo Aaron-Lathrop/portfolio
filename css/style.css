@@ -316,6 +316,13 @@ section h2 {
     text-align: center;
 }
 
+.skill-item {
+    display: inline-block;
+    margin: 6px;
+    border: 2px solid #59a1b2;
+    padding: 4px;
+}
+
 .contact {
     background-color: #59a2b3;
     color: #FFF;

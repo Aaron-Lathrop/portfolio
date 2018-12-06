@@ -11,6 +11,14 @@ function addSkills(images) {
     document.getElementById("skills").innerHTML = output;
 };
 
+function addProjectSkills(skillList) {
+    let skills = "";
+    skillList.forEach(skill => {
+        skills += `<li class="skill-item">${skill}</li>`
+    });
+    return skills;
+}
+
 function addProjects(projects) {
     let output = `<h2 class="latest-work-heading">Projects</h2>`;
     projects.forEach(project => {
@@ -21,6 +29,7 @@ function addProjects(projects) {
                     <p class="latest-work-description">
                         ${project.description}
                     </p>
+                    <ul class="skill-list">${addProjectSkills(project.skills)}</ul>
                 </div>
             </div>  `;
     });
