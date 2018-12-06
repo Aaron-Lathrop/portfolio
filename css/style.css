@@ -238,6 +238,10 @@ a {
     animation-fill-mode: backwards;
 }
 
+section h2 {
+    font-size: 42px;
+}
+
 .about-me {
     background-color: rgba(89, 163, 179, 0.03);
     width: 100%;
@@ -306,6 +310,17 @@ a {
     height: 100%;
     z-index: 10;
 } */
+
+.skills-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.profession-skills-type {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
 .professional-skills-image {
     height: 75px;
