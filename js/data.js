@@ -49,6 +49,18 @@ const images = [
         url: 'git-hub-logo.png'
     },
     {
+        name: 'Heroku',
+        url: 'heroku-logo.png'
+    },
+    {
+        name: 'Travis CI',
+        url: 'travis-ci-logo.png'
+    },
+    {
+        name: 'Postman API',
+        url: 'postman-logo.png'
+    },
+    {
         name: 'VS Code',
         url: 'vscode-logo.png'
     }
@@ -61,16 +73,16 @@ const projects = [
         img: "interview-prep.png",
         description: "Interview Prep helps users practice common interview questions.",
         skills: [
-            "NodeJS", "Express", "MongoDB", "mLab", "Heroku", "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Mocha", "Chai", "Git", "Github", "VS Code"
+            "NodeJS", "Express", "MongoDB", "mLab", "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Mocha", "Chai", "Git", "Github", "Heroku", "Travis CI", "Postman API", "VS Code"
         ]
     },
     {
         url: "https://aaron-lathrop.github.io/Civic-Researcher-API/",
         github: "https://github.com/Aaron-Lathrop/Civic-Researcher-API",
         img: "civic-researcher.png",
-        description: "Civic Researcher helps users learn about politicans in their local area.",
+        description: "Civic Researcher helps users learn about politicians in their local area.",
         skills: [
-                "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Git", "Github", "VS Code"
+                "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Git", "Github", "Postman API", "VS Code"
         ]
     },
     {
