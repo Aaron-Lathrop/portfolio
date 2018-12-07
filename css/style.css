@@ -18,12 +18,6 @@ a {
     color: #777;
 }
 
-.nav-list-item:hover:not(.nav-list-name) {
-    font-size: 16.5px;
-    font-weight: bold;
-    transition: 50ms ease-in-out;
-}
-
 .nav {
     opacity: 0.95;
     z-index: 100;
@@ -39,6 +33,12 @@ a {
     text-align: right;
     margin-right: 66px;
     padding-top: 30px;
+}
+
+.nav-list-item:hover:not(.nav-list-name) {
+    font-size: 16.5px;
+    font-weight: bold;
+    transition: 50ms ease-in-out;
 }
 
 .nav-list-name {
@@ -64,7 +64,6 @@ a {
     background-size: cover;
     background-position: center;
     position: relative;
-    /* clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); */
     margin-bottom: 30px;
 }
 
@@ -109,7 +108,6 @@ a {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 11.4px;
-
     animation: moveInRight 1s ease-out;
 }
 
@@ -119,7 +117,6 @@ a {
     font-family: 'Indie Flower', cursive, "Latto", sans-serif;
     letter-spacing: 11.4px;
     text-transform: lowercase;
-
     animation: moveInRight 1s ease-out;
 }
 
@@ -235,7 +232,6 @@ section h2 {
 .about-me-list {
     margin: 10px 0 10px 45px;
 }
-
 
 .about-me-photo-container {
     margin-bottom: 100px;
