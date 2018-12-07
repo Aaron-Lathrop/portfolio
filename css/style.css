@@ -229,10 +229,6 @@ section h2 {
     margin: 100px 0 100px 0;
 }
 
-.about-me-list {
-    margin: 10px 0 10px 45px;
-}
-
 .about-me-photo-container {
     margin-bottom: 100px;
 }
@@ -247,20 +243,10 @@ section h2 {
 
 .latest-work-container {
     margin: 20px auto 20px auto;
-    overflow: hidden;
-    cursor: pointer;
-    transform: scale(1.02);
 }
 
 .latest-work-container:last-child {
     margin: 20px auto 40px auto;
-    overflow: hidden;
-}
-
-.latest-work-container:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: 100ms ease-in-out;
 }
 
 .project-btn-container {
@@ -277,10 +263,6 @@ section h2 {
 
 .project-btn::after {
     background-color: #59a1b2;
-}
-
-.latest-work-content {
-    overflow: hidden;
 }
 
 .latest-work-image {
