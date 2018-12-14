@@ -7,7 +7,7 @@
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.15em;
     line-height: 1.7;
     color: #777;
     /* padding: 30px; */
@@ -220,17 +220,11 @@ section h2 {
     font-size: 42px;
 }
 
-.about-me {
-    background-color: rgba(89, 163, 179, 0.03);
-    width: 100%;
-}
-
-.about-me-container {
-    margin: 100px 0 100px 0;
-}
-
-.about-me-photo-container {
-    margin-bottom: 100px;
+.flexbox {
+    display: flex;
+    padding: 1.5em;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .about-me-photo {
@@ -265,6 +259,11 @@ section h2 {
     background-color: #59a1b2;
 }
 
+#latest-projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .latest-work-image {
     position: relative;
     width: 100%;
@@ -274,6 +273,10 @@ section h2 {
     font-size: 22px;
 }
 
+#skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .skills-container {
     margin: 15px;
@@ -333,21 +336,24 @@ section h2 {
 }
 
 @media only screen and (min-width: 600px) {
-    .heading-primary-main {
-        font-size: 56px;
-        letter-spacing: 15px;
+    .flexbox {
+        display: flex;
+        padding: 3.5em;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
-    #test4 {
+    .heading-primary-main {
+        font-size: 56px;
         letter-spacing: 29px;
     }
 
     .about-me-container {
-        margin: 100px 0 100px 0;
+        flex-basis: 50%;
     }
 
     .about-me-photo-container {
-        margin: 175px 0 100px 0;
+        align-self: center;
     }
 
     .about-me-photo {
