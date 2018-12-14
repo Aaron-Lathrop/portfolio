@@ -35,9 +35,9 @@ a {
 }
 
 .nav-list-item:hover:not(.nav-list-name) {
-    font-size: 16.5px;
+    font-size: 1.16em;
     font-weight: bold;
-    transition: 50ms ease-in-out;
+    transition: 200ms ease-in-out;
 }
 
 .nav-list-name {
@@ -63,7 +63,6 @@ a {
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-bottom: 30px;
 }
 
 .logo-box {
@@ -217,6 +216,9 @@ a {
 
 section h2 {
     font-size: 42px;
+    text-align: center;
+    flex-basis: 100%;
+    margin-bottom: 25px;
 }
 
 .flexbox {
@@ -224,6 +226,10 @@ section h2 {
     padding: 1.5em;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.about {
+    background-color: aliceblue;
 }
 
 .about-me-photo {
@@ -270,18 +276,24 @@ section h2 {
     font-size: 22px;
 }
 
-#skills {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.skills {
+    padding-left: 1.8em;
+    text-align: center;
+}
+
+.skills-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 .skills-container {
-    margin: 15px;
     display: inline-block;
 }
 
 .skills-image {
-    height: 90px;
+    height: 75px;
 }
 
 .skills-name {
@@ -358,7 +370,27 @@ section h2 {
         margin-top: 0;
     }
 
+    .skills-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
     .copyright {
         font-size: 22px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .skills-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        transition: 200ms ease-in-out;
+    }
+
+    .skills-image {
+        height: 100px;
     }
 }

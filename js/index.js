@@ -1,7 +1,7 @@
 'use strict';
 
 function addSkills(images) {
-    let output = `<h2 class="professional-skills-heading">Skills</h2>`;
+    let output = ``;
     images.forEach(image => {
         output += `<div class="skills-container">
                 <img class="skills-image" src="img/logos/${image.url}" alt="${image.name}">
