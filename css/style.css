@@ -17,6 +17,11 @@ a {
     color: #777;
 }
 
+section:target {
+    padding-top: 90px; 
+    margin-top: -90px;
+  }
+
 .nav {
     opacity: 0.95;
     z-index: 100;
@@ -35,7 +40,7 @@ a {
 }
 
 .nav-list-item:hover:not(.nav-list-name) {
-    font-size: 1.16em;
+    font-size: 1.1501em;
     font-weight: bold;
     transition: 200ms ease-in-out;
 }

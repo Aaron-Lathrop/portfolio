@@ -8,7 +8,7 @@ function addSkills(images) {
                 <p class=skills-name>${image.name}</p>
             </div>`
     });
-    document.getElementById("skills").innerHTML = output;
+    document.getElementById("skills-box").innerHTML = output;
 };
 
 function addProjectSkills(skillList) {
