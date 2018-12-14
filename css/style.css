@@ -17,10 +17,10 @@ a {
     color: #777;
 }
 
-section:target {
+/* section:target {
     padding-top: 90px; 
     margin-top: -90px;
-  }
+  } */
 
 .nav {
     opacity: 0.95;
