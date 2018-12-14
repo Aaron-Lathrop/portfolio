@@ -10,7 +10,6 @@ body {
     font-size: 1.15em;
     line-height: 1.7;
     color: #777;
-    /* padding: 30px; */
 }
 
 a {
@@ -230,9 +229,7 @@ section h2 {
 .about-me-photo {
     max-width: 315px;
     border-radius: 35px;
-    left: 50%;
-    position: relative;
-    transform: translateX(-50%);
+    margin-top: 45px;
 }
 
 .latest-work-container {
@@ -355,13 +352,10 @@ section h2 {
     .about-me-photo-container {
         align-self: center;
     }
-
     .about-me-photo {
         max-width: 315px;
         border-radius: 35px;
-        left: 50%;
-        position: relative;
-        transform: translateX(-50%);
+        margin-top: 0;
     }
 
     .copyright {
