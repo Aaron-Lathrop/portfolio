@@ -228,7 +228,7 @@ section h2 {
     flex-wrap: wrap;
 }
 
-.about {
+.blueback {
     background-color: aliceblue;
 }
 
@@ -238,12 +238,9 @@ section h2 {
     margin-top: 45px;
 }
 
-.latest-work-container {
+.projects-container {
     margin: 20px auto 20px auto;
-}
-
-.latest-work-container:last-child {
-    margin: 20px auto 40px auto;
+    flex-basis: 60%;
 }
 
 .project-btn-container {
@@ -262,17 +259,12 @@ section h2 {
     background-color: #59a1b2;
 }
 
-#latest-projects {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.latest-work-image {
+.projects-image {
     position: relative;
     width: 100%;
 }
 
-.latest-work-description {
+.projects-description {
     font-size: 22px;
 }
 
@@ -381,7 +373,6 @@ section h2 {
     }
 }
 
-
 @media only screen and (min-width: 1000px) {
     .skills-layout {
         display: grid;
@@ -392,5 +383,6 @@ section h2 {
 
     .skills-image {
         height: 100px;
+        transition: 200ms ease-in-out;
     }
 }
