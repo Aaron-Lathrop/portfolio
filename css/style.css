@@ -90,6 +90,7 @@ a {
     url(../img/diamond-beach.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -408,11 +409,6 @@ section h2 {
         grid-gap: 10px;
     }
 
-    .projects-container {
-        margin: 20px auto 20px auto;
-        flex-basis: 60%;
-    }
-
     .copyright {
         font-size: 22px;
     }
@@ -428,6 +424,20 @@ section h2 {
 
     .skills-image {
         height: 100px;
+        transition: 200ms ease-in-out;
+    }
+
+    .projects-container {
+        margin: 20px auto 20px auto;
+        flex-basis: 80%;
+        transition: 200ms ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .projects-container {
+        margin: 20px auto 20px auto;
+        flex-basis: 65%;
         transition: 200ms ease-in-out;
     }
 }
