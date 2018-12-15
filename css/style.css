@@ -394,17 +394,8 @@ section h2 {
         letter-spacing: 29px;
     }
 
-    .about-me-container {
-        flex-basis: 70%;
-    }
-
     .about-me-photo-container {
         align-self: center;
-    }
-    .about-me-photo {
-        max-width: 315px;
-        border-radius: 35px;
-        margin-top: 0;
     }
 
     .skills-layout {
@@ -421,6 +412,12 @@ section h2 {
 @media only screen and (min-width: 1000px) {
     .about-me-container {
         flex-basis: 50%;
+    }
+
+    .about-me-photo {
+        max-width: 315px;
+        border-radius: 35px;
+        margin-top: 0;
     }
 
     .skills-layout {
