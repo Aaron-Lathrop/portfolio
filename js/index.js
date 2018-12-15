@@ -47,6 +47,9 @@ function handleMobile() {
 function onPageLoad() {
     addSkills(images);
     addProjects(projects);
+    if(screen.width < 600) {
+        document.getElementById('nav-list').classList.remove('nav-show');
+    }
 }
 
 onPageLoad();
