@@ -40,6 +40,10 @@ function addProjects(projects) {
     document.getElementById("projects").innerHTML = output;
 }
 
+function handleMobile() {
+    document.getElementById('nav-list').classList.toggle('nav-show');
+}
+
 function onPageLoad() {
     addSkills(images);
     addProjects(projects);
