@@ -76,6 +76,9 @@ a {
     display: inline-grid;
     text-align: center;
     width: 100%;
+    position: absolute;
+    top: 60px;
+    background-color: white;
 }
 
 .nav-show li:hover {
