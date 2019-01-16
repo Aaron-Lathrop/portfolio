@@ -68,6 +68,15 @@ const images = [
 
 const projects = [
     {
+        url: "https://destino-planning.herokuapp.com/",
+        github: "https://github.com/Aaron-Lathrop/destination-client",
+        img: "Trips_page.png",
+        description: "Destino - Simple Planning helps users keep track of their plans while traveling",
+        skills: [
+            "React", "Redux", "NodeJS", "Express", "MongoDB", "mLab", "HTML5", "CSS3", "Javascript", "AJAX", "Enzyme", "Mocha", "Chai", "Git", "Github", "Heroku", "Travis CI", "Postman API", "VS Code"
+        ]
+    },
+    {
         url: "https://interview-prep-capstone.herokuapp.com/",
         github: "https://github.com/Aaron-Lathrop/Node_Capstone",
         img: "interview-prep.png",
