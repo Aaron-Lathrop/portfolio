@@ -31,8 +31,8 @@ function addProjects(projects) {
                 </p>
                 <ul class="skill-list">${addProjectSkills(project.skills)}</ul>
                 <div class="project-btn-container">
-                    <a href=${project.github} class="btn project-btn">Github</a>
-                    <a href=${project.url} class="btn project-btn">Demo</a>
+                    <a href=${project.github} class="btn project-btn" target="_blank">Github</a>
+                    <a href=${project.url} class="btn project-btn" target="_blank">Demo</a>
                 </div>
             </div>
         </div>  `;
