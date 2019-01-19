@@ -39,7 +39,7 @@ a {
 }
 
 .nav-list-item:hover{
-    font-size: 1.1501em;
+    /* font-size: 1.1501em; */
     font-weight: bold;
     transition: 200ms ease-in-out;
 }
