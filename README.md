@@ -32,29 +32,29 @@ Here are some quick facts about this site:
 Destino - Simple Planning helps users keep track of their plans while traveling
 
 The Destino app was proudly built using the MERN stack:
-    * MongoDB 
-    * Express
-    * React
-    * Node 
+* MongoDB 
+* Express
+* React
+* Node 
     
 I also utilized:
-    * Redux for state management
-    * Travis CI for continuous integration and testing
-    * Heroku to host the site
-    * Enzyme for testing
-    * Git for version control
-    * Postman for efficient API testing
-    * mLab to host the database online
-    * An agile development process focused on continual deployment and iteration
-        * Held daily scrum meetings with my wife to keep the project on track
-        * Used the pomodoro technique to help with time management
-        * Used Trello to manage tasks
+* Redux for state management
+* Travis CI for continuous integration and testing
+* Heroku to host the site
+* Enzyme for testing
+* Git for version control
+* Postman for efficient API testing
+* mLab to host the database online
+* An agile development process focused on continual deployment and iteration
+    * Held daily scrum meetings with my wife to keep the project on track
+    * Used the pomodoro technique to help with time management
+    * Used Trello to manage tasks
 
 Future steps:
-    * Allow sharing of trips between users
-    * Add Wikipedia api to learn about different countries
-    * Add Unsplash/Instagram api to add awesome photos of different locations
-    * Add country flags to trips
+* Allow sharing of trips between users
+* Add Wikipedia api to learn about different countries
+* Add Unsplash/Instagram api to add awesome photos of different locations
+* Add country flags to trips
 
 ### Interview Prep - October 2018
 [Interview Prep (Live Site)](https://interview-prep-capstone.herokuapp.com/)
