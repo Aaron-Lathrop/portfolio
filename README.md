@@ -26,6 +26,7 @@ Here are some quick facts about this site:
 
 ### Destino - Simple Planning - January 2019
 [Destino - Simple Planning App (Live Site)](https://destino-planning.herokuapp.com/)
+
 [Destino - GitHub](https://github.com/Aaron-Lathrop/destination-client)
 
 Destino - Simple Planning helps users keep track of their plans while traveling
@@ -50,13 +51,14 @@ I also utilized:
         * Used Trello to manage tasks
 
 Future steps:
-    - [] Allow sharing of trips between users
-    - [] Add Wikipedia api to learn about different countries
-    - [] Add Unsplash/Instagram api to add awesome photos of different locations
-    - [] Add country flags to trips
+    * Allow sharing of trips between users
+    * Add Wikipedia api to learn about different countries
+    * Add Unsplash/Instagram api to add awesome photos of different locations
+    * Add country flags to trips
 
 ### Interview Prep - October 2018
 [Interview Prep (Live Site)](https://interview-prep-capstone.herokuapp.com/)
+
 [Interview Prep - GitHub](https://github.com/Aaron-Lathrop/Node_Capstone)
 
 Interview Prep helps users practice common interview questions.
@@ -79,6 +81,7 @@ I also utilized:
 
 ### Civic Researcher - August 2018
 [Civic Researcher (Live Site)](https://aaron-lathrop.github.io/Civic-Researcher-API/)
+
 [Civic Researcher - GitHub](https://github.com/Aaron-Lathrop/Civic-Researcher-API)
 
 Civic Researcher helps users learn about politicians in their local area.
@@ -98,6 +101,7 @@ I also utilized:
 
 ### SpaceX Quiz - July 2018
 [SpaceX Quiz (Live Site)](https://aaron-lathrop.github.io/Quiz-App/)
+
 [SpaceX Quize - GitHub](https://github.com/Aaron-Lathrop/Quiz-App)
 
 SpaceX Quiz is a 10 question quiz on SpaceX trivia
