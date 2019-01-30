@@ -64,20 +64,20 @@ Future steps:
 Interview Prep helps users practice common interview questions.
 
 The Interview Prep app was proudly built using:
-    * MongoDB 
-    * Express
-    * Node 
-    * jQuery
+* MongoDB 
+* Express
+* Node 
+* jQuery
     
 I also utilized:
-    * Travis CI for continuous integration and testing
-    * Heroku to host the site
-    * Mocha and Chai for testing
-    * Git for version control
-    * Postman for efficient API testing
-    * mLab to host the database online
-    * An agile development process focused on continual deployment and iteration
-        * Held weekly meetings with a mentor (senior developer) to keep the project focused and on track
+* Travis CI for continuous integration and testing
+* Heroku to host the site
+* Mocha and Chai for testing
+* Git for version control
+* Postman for efficient API testing
+* mLab to host the database online
+* An agile development process focused on continual deployment and iteration
+    * Held weekly meetings with a mentor (senior developer) to keep the project focused and on track
 
 ### Civic Researcher - August 2018
 [Civic Researcher (Live Site)](https://aaron-lathrop.github.io/Civic-Researcher-API/)
@@ -87,17 +87,17 @@ I also utilized:
 Civic Researcher helps users learn about politicians in their local area.
 
 The Civic Researcher app was proudly built using:
-    * jQuery
-    * HTML
-    * CSS
-    * AJAX
+* jQuery
+* HTML
+* CSS
+* AJAX
     
 I also utilized:
-    * Git for version control
-    * Postman for efficient API testing
-        * Google Civic api
-        * YouTube api
-        * Wikipedia api
+* Git for version control
+* Postman for efficient API testing
+    * Google Civic api
+    * YouTube api
+    * Wikipedia api
 
 ### SpaceX Quiz - July 2018
 [SpaceX Quiz (Live Site)](https://aaron-lathrop.github.io/Quiz-App/)
@@ -107,6 +107,6 @@ I also utilized:
 SpaceX Quiz is a 10 question quiz on SpaceX trivia
 
 The SpaceX Quiz app was proudly built using:
-    * jQuery
-    * HTML
-    * CSS
+* jQuery
+* HTML
+* CSS
