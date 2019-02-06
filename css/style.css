@@ -88,13 +88,13 @@ a {
 
 .hero-image {
     top: 0;
+    left: 0;
     height: 95vh;
-    background-image: 
-    linear-gradient(
-    to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
-    url(../img/diamond-beach.jpg);
+    background-image: linear-gradient(
+        to bottom right, rgba(168, 138, 101, 0.3), rgba(13, 3, 1, 0.3)),
+        url(../img/diamond-beach.jpg);
+    width: 100vw;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     position: relative;
 }
