@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -38,28 +42,22 @@ a {
     display: none;
 }
 
-.nav-list-item:hover{
-    /* font-size: 1.1501em; */
-    font-weight: bold;
-    transition: 200ms ease-in-out;
-}
-
 .nav-list-name {
     float: left;
-    font-size: 43px;
     font-weight: 400;
     padding-left: 15px;
     font-family: 'Indie Flower', cursive, "Latto", sans-serif;
 }
-.nav-list-name:hover {
-    font-weight: bold;
+
+.nav-list-item:hover {
     transition: 200ms ease-in-out;
+    background-color: aliceblue;
 }
 
 .nav-list-item {
     color: #777;
     display: inline;
-    margin-right: 15px;
+    padding: 12px 7.5px;
 }
 
 .nav-mobile:not(.nav-list-name) {
