@@ -1,6 +1,6 @@
 # Aaron Lathrop Miller - Web Developer
 
-## [Visit Live Portfolio](https://aaron-lathrop.github.io/portfolio/)
+## [Visit Live Portfolio](aaronlathrop.com/)
 
 ### [See my resume](https://github.com/Aaron-Lathrop/portfolio/blob/master/img/pdf/Aaron%20Lathrop%20Miller%20Resume.pdf)
 
